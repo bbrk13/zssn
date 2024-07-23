@@ -25,7 +25,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Survivor',
             fields=[
-                ('survivor_id', models.AutoField(primary_key=True, serialize=False)),
+                ('id', models.AutoField(primary_key=True, serialize=False)),
                 ('is_infected', models.BooleanField(default=False)),
                 ('name', models.CharField(max_length=100)),
                 ('age', models.IntegerField()),
